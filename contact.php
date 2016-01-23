@@ -8,8 +8,8 @@
 
 		//Enter name & email address that you want to emails to be sent to.
 		
-		$toName = "Xenia";
-		$toAddress = "email@sitename.com";
+		$toName = "Amit Badlani";
+		$toAddress = "amit.badlani@alumni.stanford.edu";
 		
 	///////////////////////////////////////////////////////////////////////////
 	

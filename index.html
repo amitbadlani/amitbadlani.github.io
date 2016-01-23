@@ -8,7 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		
 		<!-- Title -->
-		<title>Xenia - Responsive One Page Parallax Theme</title>
+		<title>Amit Badlani</title>
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="images/favicon.ico">
@@ -18,6 +18,12 @@
 		
 		<!-- Font awesome -->
 		<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+        
+        <!-- Animation -->
+		<link rel="stylesheet" type="text/css" href="layout/plugins/Animation/animate.css"/>
+        <link rel="stylesheet" type="text/css" href="layout/plugins/owl/owl.transition.css"/>
+        <link rel="stylesheet" type="text/css" href="layout/plugins/owl/owl.carousel.css"/>
+        <link rel="stylesheet" type="text/css" href="layout/plugins/owl/owl.theme.css"/>
 		
 		<!-- Google web fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700,700italic' rel='stylesheet' type='text/css'>
@@ -33,9 +39,6 @@
 		<!-- Isotope -->
     	<link rel="stylesheet" href="layout/plugins/isotope/isotope.css" type="text/css">
 		
-		<!-- Settings (Remove it on your site) -->
-		<link rel="stylesheet" href="layout/plugins/settings/settings.css" type="text/css">
-		
 		<!-- Modernizr -->
     	<script src="layout/plugins/modernizr/modernizr.custom.js"></script>
     	
@@ -49,7 +52,7 @@
   
   <body>
     
-	<!-- Loader -->
+    <!-- Loader -->
     <div class="page-loader">
         <div class="content">
             <div class="line">
@@ -74,7 +77,7 @@
 				
                 <!-- Logo -->
                 <a class="navbar-brand" href="index.html">
-                    <img src="images/logo-light-full.png" data-alt="images/logo-dark-full.png" alt="">
+                    <img src="images/logo.png" data-alt="images/logo-alternate.png" alt="">
                 </a>
 				
             </div>
@@ -84,12 +87,10 @@
 				<!-- Items -->
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#intro">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Projects</a></li>
-                    <li><a href="#team">Team</a></li>
-					<li><a href="shortcodes.html">Shortcodes</a></li>
-					<li><a href="blog.html">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#conf">Conferences and Workshops</a></li>
+                    <li><a href="#resume">Resume</a></li>
                 </ul>
 								
             </div>
@@ -98,7 +99,7 @@
     </div>
 
     <!-- Intro -->
-    <!-- (1) Video background -->
+    <!-- Video background -->
     <section class="intro" id="intro" data-type="video" data-source="kvJxX7fk0gI" data-on-error="images/demo/intro/static-image.jpg" data-mute="true" data-start="0" data-stop="0" data-overlay="0.4" data-quality="default">
         
 		<!-- Content -->
@@ -111,8 +112,8 @@
                                 <i class="fa fa-play"></i>
                             </div>
                             <header>
-                                <h1 class="offsetTopClear animate">Awesome One Page Template</h1>
-                                <h2 class="text-light animate">Made with <i class="fa fa-heart"></i> in San Francisco</h2>
+                                <h1 class="offsetTopClear animate">Amit Badlani</h1>
+                                <h2 class="text-light animate">Product Manager | Change Driver | World Traveller</h2>
                             </header>
                         </div>
                     </div>
@@ -127,116 +128,40 @@
 		
     </section>
 
-    <!-- About -->
-    <section class="section offsetTop" id="about">
-        
-		<!-- Container -->
-        <div class="container">
-            
-			<div class="row">
-                <div class="col-md-12">
-                    <header class="text-center offsetBottom">
-                        <!-- Icon or image -->
-                        <div class="icon"><img src="images/logo-dark.png" alt="Logo"></div>
-                        <h2>About Xenia Theme</h2>
-                    </header>
-                </div>
-            </div>
-			
-            <div class="row offsetBottomL">
-                <div class="col-md-10 col-md-offset-1 text-center">
-                    <p>
-                        Xenia is loaded with useful, functional options that allow users to quickly and easily create stunning websites.<br>
-                        But that's not all, when you buy Xenia you will also get the most amazing customer support!
-                    </p>
-                </div>
-            </div>
-			
-        </div>
-		
-        <!-- Delimiter -->
-        <hr>
-		
-        <!-- Services -->
-        <div class="container">
-            <div class="row services">
-                
-				<!-- Cell 1 -->
-                <div class="col-md-4 col-sm-4 col-xs-6 text-center offsetTopL offsetBottomL animation animation-from-left">
-                    <div>
-                        <i class="fa fa-tint"></i>
-                        <header>
-                            <h4>Retina Ready</h4>
-                        </header>
-                        <p>Pellentesque sem tortor, venenatis et cursus nec, imperdiet quis dolor. Duis egestas euismod accumsan turpisu.</p>
-                    </div>
-                </div>
-				
-                <!-- Cell 2 -->
-                <div class="col-md-4 col-sm-4 col-xs-6 text-center offsetTopL offsetBottomL animation animation-from-left">
-                    <div>
-                        <i class="fa fa-tablet"></i>
-                        <header>
-                            <h4>Responsive Layout</h4>
-                        </header>
-                        <p>Suspendisse tristique non justo non commodo. In dictum lacus turpis. Vivamus non rutrum augue, sit amet risus.</p>
-                    </div>
-                </div>
-				
-                <!-- Cell 3 -->
-                <div class="col-md-4 col-sm-4 col-xs-6 text-center offsetTopL offsetBottomL animation animation-from-left">
-                    <div>
-                        <i class="fa fa-gift"></i>
-                        <header>
-                            <h4>6 Header Variations</h4>
-                        </header>
-                        <p>Cras non porta massa. Vivamus quis vulputate est. Pellentesque semper mauris at tristique euismod lobort eget.</p>
-                    </div>
-                </div>
-				
-            </div>
-        </div>
-    </section>
-
-    <!-- Features -->
-    <section class="section offsetTop offsetBottom" id="features">
+    <!-- About Me -->
+    <section class="section offsetTop offsetBottom" id="about">
         <div class="container">
 		
             <div class="row">
                 <div class="col-md-6 col-sm-8 col-xs-12">
                     <header class="offsetBottomS">
-                        <h2>Features of Xenia theme</h2>
+                        <h2>Hello</h2>
                     </header>
                 </div>
 				
                 <!-- Content -->
                 <div class="animation animation-from-bottom">
-                    <img src="images/demo/ipad.jpg" alt="iPad" class="offsetTopS col-md-6 col-sm-4 col-xs-6 pull-right img-responsive big-ipad">
+                    <img src="images/demo/AboutMe/AmitBadlani.png" alt="iPad" class="offsetTopS col-md-6 col-sm-4 col-xs-6 pull-right img-responsive big-ipad">
                 </div>
                 <div class="col-md-6 col-sm-8">
-                    <h4 class="offsetTopS offsetBottomS">Unlimited Colors</h4>
-                    <p>
-                        Praesent vehicula quam non est ullamcorper, nec egestas nunc auctor. Donec a libero sed magna varius egestas vel ac mauris. Ut eu ante sed risus dapibus egestas quis in elit. Class aptent taciti sociosqutorquent.
+                    <p>I am a Product Manager with background in Hardware Engineering, Product Design, UX Design and Agile Software Development. 
                     </p>
+                    <br/>
+                    <br/>
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <h4 class="offsetTopS offsetBottomS">Sticky Header</h4>
                     <p>
-                        Suspendisse potenti. Suspendisse pretium, augue sed mattis semper, nulla erat tempor nisl, sit amet placerat eros purus ac tellus. Sed dignissim lorem nisi, vitae molestie libero condimentum at. Morbi finibus urna aliquam lacus consectetur auctor. Vestibulum pretium faucibus lorem eget dus evci interdum.
+                        I work at the intersection of technology, design and business to create delightfull experiences. During my 2 years of work experience as a Product Manager, I've owned and managed multi-million dollar programs, working closely with geographically diverse business and technical teams to deliver high quality solutions. 
                     </p>
 
-                    <h4 class="offsetTopS offsetBottomS">Based on Bootstrap</h4>
                     <p class="offsetBottomS">
-                        Sed suscipit, sem id scelerisque consequat, tellus ante sollicitudin tellus, ut ornare velit libero eu metus. Suspendisse et finibus orci, quis ullamcorper magna. Nam a fringilla nunc, at aliquet dui. Aenean scelerisque neq.
+                        I also speak and run workshops across the globe, focussing on design thinking and agile development processes.
                     </p>
-                    <!-- Buttons -->
-                    <div class="offsetTopS">
-                        <a href="http://www.codegrape.com/item/xenia-responsive-one-page-parallax-theme/5697" class="btn btn-default">
-                            <i class="fa fa-rocket"></i>
-                            Purchase
-                        </a>
-                        <a href="#try" class="btn btn-link">Learn More</a>
-                    </div>
+                    
+                    <br/>
+                    <br/>
+                    <p>Below you'll find my resume, recent work and all that jazz.
+                    </p>
                 </div>
             </div>
 			
@@ -372,6 +297,136 @@
                     </div>
                 </div>
 				
+            </div>
+        </div>
+    </section>
+      
+      <!-- Resume
+    ============================================= -->
+    <section class="section offsetTop" id="resume">
+        <div class="container text-center offsetBottom">
+            <h2>Resume</h2>
+                 <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image ">
+                                    <img class="img-circle img-responsive wow fadeInUp" data-wow-delay=".3s" src="images/demo/Resume/BITSPilani.gif" alt="">
+                            </div>
+                            <div class="timeline-panel wow fadeInUp" data-wow-delay=".3s">
+                                <div class="timeline-heading">
+                                    <h4>B.S. Electrical Engineering, 2012</h4>
+                                    <h7 class="text-muted">Gold Medalist</h7>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>I was awarded the <a href="https://theydinteachmethisincollege.wordpress.com/2012/08/02/a-slice-of-history/">Best Graduating Student Award</a> Class of 2012 when I graduated from BITS Pilani. I got a job offer from nVidia but I chose to pursue my Masters at Stanford University.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image wow fadeInUp" data-wow-delay=".3s">
+                                    <img class="img-circle img-responsive wow fadeInUp" data-wow-delay=".3s" src="images/demo/Resume/Stanford.png" alt="">
+                            </div>
+                            <div class="timeline-panel wow fadeInUp" data-wow-delay=".3s">
+                                <div class="timeline-heading">
+                                    <h4>Software Systems (HCI), 2014</h4>
+                                    <h7 class="text-muted">Highest Distinction</h7>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>I got myself appointed in the Admissions Committee at Stanford, which was also a way to get out of being a design-thinking coach.
+At Stanford, I also organized the biggest Energy week as a part of the Stanford Energy Club.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image wow fadeInUp" data-wow-delay=".3s">
+                                <img class="img-circle img-responsive wow fadeInUp" data-wow-delay=".3s" src="images/demo/Resume/dSchool.png" alt="">
+                            </div>
+                            <div class="timeline-panel wow fadeInUp" data-wow-delay=".3s">
+                                <div class="timeline-heading">
+                                    <h4>Design Student, 2012-13</h4>
+                                    <h7 class="text-muted">Product Design</h7>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>I was a design consultant for various projects at the d.School, where I helped companies like SAP, Novartis, Nordstorm and SF MOMA with different design challenges. This was also a time where I facilitated several design thinking workshops at the Stanford d.School.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image wow fadeInUp" data-wow-delay=".3s">
+                                    <img class="img-circle img-responsive wow fadeInUp" data-wow-delay=".3s" src="images/demo/Resume/Trinity.png" alt="">
+                            </div>
+                            <div class="timeline-panel wow fadeInUp" data-wow-delay=".3s">
+                                <div class="timeline-heading">
+                                    <h4>Design Consultant,
+2012-13</h4>
+                                    <h7 class="text-muted">Write Something</h7>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>I travelled to Trinity College Dublin as a part of my product design course - ME310. I was a design consultant for AppHaus Dublin, during this time. I along with 7 other students from Stanford and Trinity College Dublin designed the next generation remote collaboration experience for work-environments.</p>
+                                </div>
+                            </div>
+                        </li>
+                       <li>
+                            <div class="timeline-image wow fadeInUp" data-wow-delay=".3s">
+                                    <img class="img-circle img-responsive wow fadeInUp" data-wow-delay=".3s" src="images/demo/Resume/ir-labs.png" alt="">
+                            </div>
+                            <div class="timeline-panel wow fadeInUp" data-wow-delay=".3s">
+                                <div class="timeline-heading">
+                                    <h4>Product Manager</h4>
+                                    <h7 class="text-muted">Technology Leadership</h7>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>I am currently working on the next generation search user interface at SAP Labs in Palo Alto. I am also designing a CRM application for Google Glass.</p>
+                                </div>
+                            </div>
+                        </li>
+                         <li class="timeline-inverted">
+                         <section id="hifi">  
+                         <div class="timeline-image wow fadeInUp" data-wow-delay=".3s">
+                                    <img class="img-circle img-responsive wow fadeInUp" data-wow-delay=".3s" src="images/demo/Resume/SAP.jpg" alt="">
+                            </div>
+                        </section>
+                            <div class="timeline-panel wow fadeInUp" data-wow-delay=".3s">
+                                <div class="timeline-heading">
+                                    <h4>Lead UX Design Intern</h4>
+                                    <h7 class="text-muted">Designing for Wearables</h7>
+                                </div>
+                                <div class="timeline-body">
+                                    <p> Our team conducted a heuristic evaluation of our product's interface. We logged all realivant issues and incoorperated those changes into our Hi-Fi Prototype </p>
+                                    <p> <a class="view-pdf" href="Deliverables/HE.pdf"> Report </a> </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div  class="timeline-image wow fadeInUp" data-wow-delay=".3s">
+                                <img class="img-circle img-responsive wow fadeInUp" data-wow-delay=".3s" src="images/demo/Resume/Stanford_GSB_Logo.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel wow fadeInUp" data-wow-delay=".3s">
+                                <div class="timeline-heading">
+                                    <h4>Management Science &amp; Engineering</h4>
+                                    <h7 class="text-muted">Focus Area: Product Strategy</h7>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>We coded our hi-fi prototype in Swift using Xcode. With the short turnaround time, we resorted to using the wizard of oz technique to implement the archive. We plan to refine our product and build a fully functional application in the coming months.</p>
+                            </div>
+                        </li>
+                         <li class="timeline-inverted">
+                            <div class="timeline-image wow fadeInUp" data-wow-delay=".3s">
+                                <img class="img-circle img-responsive wow fadeInUp" data-wow-delay=".3s" src="images/demo/Resume/Ericsson.png" alt="">
+                            </div>
+                            <div class="timeline-panel wow fadeInUp" data-wow-delay=".3s">
+                                <div class="timeline-heading">
+                                    <h4> Product Manager</h4>
+                                    <h7 class="text-muted">Shaping the Networked Society</h7>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>I am currently working at Ericsson and helping shape the networked society.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -762,7 +817,7 @@
                     <div class="col-md-12">
                         <div class="large-info">
                             <i class="fa fa-phone"></i>
-                            949-723-3012
+                            (650) 739-3278
                         </div>
                     </div>
                 </div>
@@ -772,7 +827,7 @@
                     <div class="col-md-12">
                         <i class="fa fa-envelope contact-icon"></i>
                         <p class="contact-info">
-                            <a href="mailto:email@sitename.com">email@sitename.com</a>
+                            <a href="mailto:amit.badlani@alumni.stanford.edu">amit.badlani@alumni.stanford.edu</a>
                         </p>
                     </div>
                 </div>
@@ -782,96 +837,13 @@
                     <div class="col-md-12">
                         <i class="fa fa-map-marker contact-icon"></i>
                         <p class="contact-info">
-                            <a href="#google-map">2536 Chestnut Street, San Francisco, CA 94123‎</a>
+                            <a href="#google-map">Stanford, CA, 94305</a>
                         </p>
                     </div>
                 </div>
 				
             </div>
         </div>
-    </section>
-
-    <!-- Contact Form -->
-    <section class="section offsetTop offsetBottom" id="contact">
-        <div class="container contact-form">
-            
-			<div class="row">
-                <div class="col-md-12">
-                    <header class="text-center offsetBottom">
-                        <h2>Get in Touch</h2>
-                        <p class="info">
-                            Feel free to drop us a line! Fusce dapibus, tellus commodo tortor.<br>
-                            Mauris condimentum utellus fermentum, porta sem.
-                        </p>
-                    </header>
-                </div>
-            </div>
-			
-            <!-- Default State -->
-            <div class="contact-form-area">
-                
-				<!-- Fields -->
-                <div class="row">
-                    <div class="col-md-6 col-sm-6">
-                        <div class="field">
-                            <input type="text" name="name" class="field-name" placeholder="Name">
-                        </div>
-                        <div class="field">
-                            <input type="email" name="email" class="field-email" placeholder="Email">
-                        </div>
-                        <div class="field">
-                            <input type="text" name="phone" class="field-phone" placeholder="Phone">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <div class="field">
-                            <textarea name="message" class="field-message" placeholder="Message"></textarea>
-                        </div>
-                    </div>
-                </div>
-				
-                <!-- Submit Button -->
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <button type="submit" class="btn btn-default" id="contact-submit">Send Message</button>
-                    </div>
-                </div>
-				
-            </div>
-			
-            <!-- Submit Results -->
-            <div class="contact-form-result">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3>Thank You for the Email!</h3>
-                        <p>Your message has already arrived! We'll contact you shortly.</p>
-                        <h5>Goog day.</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Google Maps -->
-    <section class="section map">
-        
-		<!-- Map -->
-        <div id="google-map" data-latitude="37.799497" data-longitude="-122.446500"></div>
-        
-		<!-- This Information will show on Click to Map Marker -->
-        <div id="map-info">
-            <div id="content">
-                <div id="siteNotice"></div>
-                <h4 id="firstHeading" class="firstHeading">About Xenia theme</h4>
-                <div id="bodyContent">
-                    <p>
-						Donec arcu nulla, semper et urna ac, laoreet porta.<br>
-						Vivamus sodales efficitur massa at rhoncus.
-                    </p>
-                </div>
-            </div>
-        </div>
-		
     </section>
 
     <!-- Footer -->
@@ -885,18 +857,15 @@
                     <a class="to-top"><i class="fa fa-angle-up"></i></a>
 					
                     <!-- Copyright -->
-                    <span>2015 &copy; Xenia. All rights reserved.</span>
+                    <span>Copyright &copy; Amit Badlani 2016</span>
 					
                 </div>
 				
                 <div class="col-md-6 col-sm-6 social">
-					<a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
-                    <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
-                   	<a href="#" title="Google+"><i class="fa fa-google-plus"></i></a>
-					<a href="#" title="Behance"><i class="fa fa-behance"></i></a>
-                    <a href="#" title="Dribbble"><i class="fa fa-dribbble"></i></a>
-					<a href="#" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-					<a href="#" title="RSS"><i class="fa fa-rss"></i></a>
+					<a href="https://twitter.com/amitster007" title="Twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/amitbadlani" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                   	<a href="https://github.com/amitbadlani" title="Github"><i class="fa fa-github"></i></a>
+					<a href="https://medium.com/@amitster007" title="Medium"><i class="fa fa-medium"></i></a>
                 </div>
 				
             </div>
@@ -914,6 +883,8 @@
     
 	<!-- Plugins -->
     <script type="text/javascript" src="layout/plugins/retina/retina.min.js"></script>
+    <script type="text/javascript" src="layout/plugins/wow.min.js"></script>
+    <script type="text/javascript" src="layout/plugins/owl/owl.carousel.min.js"></script>
     <script type="text/javascript" src="layout/plugins/scrollto/jquery.scrollto.min.js"></script>
     <script type="text/javascript" src="layout/plugins/smoothscroll/smoothscroll.js"></script>
     <script type="text/javascript" src="layout/plugins/mb/jquery.mb.ytplayer.js"></script>
@@ -925,10 +896,6 @@
     
 	<!-- Main -->
     <script type="text/javascript" src="layout/js/main.js"></script>
-	
-	<!-- Settings (Remove it on your site) -->
-	<script type="text/javascript" src="layout/plugins/settings/jquery.cookies.min.js"></script>
-	<script type="text/javascript" src="layout/plugins/settings/settings.js"></script>
-	
+      
   </body>
 </html>
