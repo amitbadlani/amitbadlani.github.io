@@ -115,7 +115,7 @@
 
 	/* Demo Content */
 	.big-ipad.pull-right {
-		float:left !important;
+		float:center; 
 	}
 	
 	.no-right-xs {
