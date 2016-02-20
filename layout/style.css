@@ -535,6 +535,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .navbar .navbar-brand img {
 	position:absolute;
+    margin-top: -120%;
 }
 
 .navbar .navbar-collapse {
