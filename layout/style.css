@@ -915,10 +915,10 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .intro .animate {
 	opacity:0;
-	-webkit-transition:opacity 0.3s ease;
-	   -moz-transition:opacity 0.3s ease;
-		 -o-transition:opacity 0.3s ease;
-			transition:opacity 0.3s ease;
+	-webkit-transition:opacity 0.7s 9.5s ease;
+	   -moz-transition:opacity 0.7s 9.5s ease;
+		 -o-transition:opacity 0.7s 9.5s ease;
+			transition:opacity 0.7s 9.5s ease;
 }
 
 .intro .animate.complete {
@@ -2697,4 +2697,32 @@ Timeline Style
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
     }
+}
+
+
+/* ==========================================================================
+Typed Cursor
+========================================================================== */
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

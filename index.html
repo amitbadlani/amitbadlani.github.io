@@ -109,11 +109,11 @@
                 <div class="text-center">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="video-control animate" id="video-mode">
+                            <div class="video-control" id="video-mode">
                                 <i class="fa fa-play"></i>
                             </div>
                             <header>
-                                <h1 class="offsetTopClear animate">I'm <span id="typed"></span></h1>
+                                <h1 class="offsetTopClear">I'm <span id="typed"></span></h1>
                                 <h2 class="text-light animate">Product Manager | Change Driver | World Traveller</h2>
                             </header>
                         </div>
@@ -621,19 +621,17 @@ At Stanford, I also organized the biggest Energy week as a part of the Stanford 
             typeSpeed: 30,
             startDelay: 6000,
             backDelay: 500,
-            loop: false,
-            callback: function(){
-                lift();
-            }
+            loop: false
         });
         
         $("#welcome-greeting").typed({
-            strings: ["Hola!", "Hello!", "Hi!", "Hasta la vista!"],
-            typeSpeed: 60,
-            startDelay: 500,
-            backDelay: 500,
-            backSpeed: 100,
-            loop: true
+            strings: ["¡Hola!^2000", "Bonjour!^2000", "Salut!^2000", "Hello!^2000", "Allô!^2000"],
+            typeSpeed: 30,
+            startDelay: 100,
+            backDelay: 0,
+            backSpeed: 50,
+            loop: true, 
+            loopCount: false
         });
     </script>
       
