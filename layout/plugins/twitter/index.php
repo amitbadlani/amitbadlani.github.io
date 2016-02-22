@@ -25,19 +25,19 @@ class ezTweet {
 
     // Your Twitter App Consumer Key
 	// private $consumer_key = 'YOUR_CONSUMER_KEY';
-	private $consumer_key = '';
+	private $consumer_key = 'txKPim9kP5Qb5oTWHGVgg5H9v';
 
 	// Your Twitter App Consumer Secret
 	// private $consumer_secret = 'YOUR_CONSUMER_SECRET';
-	private $consumer_secret = '';
+	private $consumer_secret = 'HCKQALwRSfYi1B9aq0m41k0PWUh4UAgzWwHNQ2TYSmc0Dvaa5z';
 
 	// Your Twitter App Access Token
 	// private $user_token = 'YOUR_ACCESS_TOKEN';
-	private $user_token = '';
+	private $user_token = '114768480-XAnOPd39qYWshaKP3cREFsTGxzg2GBjzmY2X7iMo';
 
 	// Your Twitter App Access Token Secret
 	// private $user_secret = 'YOUR_ACCESS_TOKEN_SECRET';
-	private $user_secret = '';
+	private $user_secret = '1UMzjaF5jq6r8XGgPqHgCCxgkcp4Pf2LkzA2YkopdLTEa';
 
 	// Path to tmhOAuth libraries
 	private $lib = './lib/';
