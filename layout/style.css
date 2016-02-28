@@ -355,8 +355,9 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 	overflow:hidden;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
-	background-position:center top;
-	background-size:contain;
+	background-position:center;
+	background-size:cover;
+    width: 100%;
 }
 
 .section.parallax .parallax-container, 
