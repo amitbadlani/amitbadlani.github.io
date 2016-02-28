@@ -841,10 +841,6 @@ var XeniaTheme = {
 
     // Video Background for Sections
     videos:function() {
-        if (Modernizr.touch) {
-            $('.section.video').remove();
-            return;
-        }
 
         if ($('.section.video').length>0) {
             var tag = document.createElement('script');
