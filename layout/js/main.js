@@ -1543,3 +1543,10 @@ function onYouTubeIframeAPIReady() {
         }
    });
 }
+
+// Testimonials carousel
+$("#owl-testimonial").owlCarousel({
+    singleItem : true,
+    pagination : true,
+    autoHeight : true
+})
