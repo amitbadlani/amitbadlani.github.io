@@ -1,0 +1,170 @@
+/* 
+Very glad to see you're interested in digging into this website's code! It's been crafted with infinite love :)
+*/
+
+/*Color scheme
+quadrant2 of parent website = background of this page = #f9e9d0 .. previous: f1e5cf
+This is a light theme, background should be white, brand-horizon should be white.
+*/
+
+/* fixed background scroll is broken on both iOS and Android, 
+ergo important to make this distinction right in the beginning */
+@media only screen and (min-width: 1170px) {
+  .photo-bg {
+    background-attachment: fixed;
+  }
+}
+    /* iPhone 4 */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+  .header {
+    height: 50px;
+  }
+  .photo-bg-freight-train h1, .text-bg h1{
+    font-size: 200%;
+  }
+  .photo-bg-freight-train p, .text-bg p{
+    font-size: 100%;
+  }
+  .quadrant-brand {
+      font-size:100%;
+  }
+}
+
+/* smartphone (portrait) */
+@media only screen and (max-width: 320px) {
+  .header {
+    height: 50px;
+  }
+  .photo-bg-freight-train h1, .text-bg h1{
+    font-size: 200%;
+  }
+  .photo-bg-freight-train p, .text-bg p {
+    font-size: 100%;
+  }
+  .quadrant-brand {
+      font-size:100%;
+  }
+}
+
+/* smartphone (landscape) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .header {
+    height: 50px;
+  }
+  .photo-bg-freight-train h1, .text-bg h1{
+    font-size: 200%;
+  }
+  .photo-bg-freight-train p, .text-bg p {
+    font-size: 100%;
+  }
+  .quadrant-brand {
+      font-size:100%;
+  }
+}
+
+/* small tablet (portrait) */
+@media only screen and (min-width : 600px) and (max-width : 800px) and (orientation : portrait) {
+  .header {
+    height: 50px;
+  }
+  .photo-bg-freight-train h1, .text-bg h1{
+    font-size: 300%;
+  }
+  .photo-bg-freight-train p, .text-bg p {
+    font-size: 150%;
+  }
+  .quadrant-brand {
+      font-size:120%;
+  }
+}
+
+/* small tablet (landscape) */
+@media only screen and (min-width : 600px) and (max-width : 800px) and (orientation : landscape) {
+  .header {
+    height: 50px;
+  } 
+  .photo-bg-freight-train h1, .text-bg h1{
+    font-size: 300%;
+  }
+  .photo-bg-freight-train p, .text-bg p {
+    font-size: 150%;
+  }
+  .quadrant-brand {
+      font-size:120%;
+  }
+}
+
+/* standard tablet (portrait) */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
+  .header {
+    height: 70px;
+  }
+  .photo-bg-freight-train h1, .text-bg h1{
+    font-size: 400%;
+  }
+  .photo-bg-freight-train p, .text-bg p {
+    font-size: 200%;
+  }
+  .quadrant-brand {
+      font-size:140%;
+  }
+}
+/* standard tablet (landscape) */
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+  .header {
+    height: 70px;
+  } 
+  .photo-bg-freight-train h1, .text-bg h1{
+    font-size: 400%;
+  }
+  .photo-bg-freight-train p, .text-bg p {
+    font-size: 200%;
+  }
+  .quadrant-brand {
+      font-size:140%;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1224px) {
+  .header {
+    height: 70px;
+  }
+  .photo-bg-freight-train h1, .text-bg h1{
+    font-size: 400%;
+  }
+  .photo-bg-freight-train p, .text-bg p {
+    font-size: 200%;
+  }
+  .quadrant-brand {
+      font-size:180%;
+  }
+}
+
+/* large screen */
+@media only screen and (min-width : 1824px) {
+  .header {
+    height: 70px;
+  } 
+  .photo-bg-freight-train h1, .text-bg h1{
+    font-size: 400%;
+  }
+  .photo-bg-freight-train p, .text-bg p {
+    font-size: 200%;
+  }
+  .quadrant-brand {
+      font-size:180%;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .header {
+    height: 50px;
+  } 
+  .photo-bg-freight-train h1, .text-bg h1{
+    font-size: 200%;
+  }
+  .photo-bg-freight-train p, .text-bg p{
+    font-size: 100%;
+  }
+}

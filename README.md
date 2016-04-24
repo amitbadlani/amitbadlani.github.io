@@ -1,2 +1,2 @@
 # amitbadlani.github.io
-This is the personal website of Amit Badlani.
+This is the design studio of Amit Badlani.

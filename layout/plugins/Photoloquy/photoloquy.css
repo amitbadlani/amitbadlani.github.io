@@ -1,0 +1,202 @@
+/* 
+Very glad to see you're interested in digging into this website's code! It's been crafted with infinite love :)
+*/
+
+/*Color scheme
+This is a light theme, background should be white, brand-horizon should be white.
+*/
+
+@import url(fonts/portfolio-fonts.css);
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montez;
+}
+
+body, html {
+  /* important */
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 50%;
+}
+.quadrant-brand {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    cursor: hand;
+    font-family: dawn;
+    font-size: 180%;
+    background-color: transparent;
+}
+.centered-container {
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+.centered-container::after { /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  z-index: 2;
+}
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*@media only screen and (min-width: 768px) {
+  .header {
+    height: 70px;
+  }
+}*/
+.main-content {
+  height: 100%; /* this is the min. height that needs to be inherited by children */
+  position: relative;
+  z-index: 1;
+}
+
+.photo-bg {
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+
+/* PHOTOS */
+.photo-bg.photo-bg-freight-train{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-1.jpg");
+}
+.photo-bg.photo-bg-fix-you{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-2.jpg");
+}
+.photo-bg.photo-bg-ek-baat{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-3.jpg");
+}
+.photo-bg.photo-bg-school-allusion{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-4.jpg");
+}
+.photo-bg.photo-bg-set-fire-to-the-rain{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-5.jpg");
+}
+.photo-bg.photo-bg-iris{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-6.jpg");
+}
+.photo-bg.photo-bg-daylight{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-7.jpg");
+}
+.photo-bg.photo-bg-water-mind{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-8.jpg");
+}
+.photo-bg.photo-bg-into-the-blue{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-9.jpg");
+}
+.photo-bg.photo-bg-counting-stars{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-10.jpg");
+}
+.photo-bg.photo-bg-yellow{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-11.jpg");
+}
+.photo-bg.photo-bg-each-other{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-1.jpg");
+}
+
+/* TEXT ON PHOTOS
+Needs to be customized, depending on the photo.
+To generalize, apply to .photo-bg instead of .photo-bg-song-title
+
+photoloquy_version1: only mishku pic has text, hence .photo-bg-freight-train */
+.photo-bg-freight-train h1, .photo-bg-freight-train p{
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.photo-bg-freight-train h1{
+  top: 50%;
+  bottom: auto;
+  right: auto;
+}
+.photo-bg-freight-train p{
+  top: auto;
+  bottom: 10%;
+  right: auto;
+}
+
+.text-bg {
+  position: relative;
+  min-height: 100%;
+  padding: 4em 0;
+  line-height: 1.6;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.text-bg h1, .text-bg p{  
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 1170px;
+  text-align: center;
+}
+.text-bg h1{
+  top: 40%;
+  bottom: auto;
+  right: auto;
+  line-height: 100%;
+}
+.text-bg.extra-long-para h1{
+  line-height: 75%;
+}
+.text-bg p{
+  top: auto;
+  bottom: 5%;
+  right: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .text-bg {
+    padding: 8em 0;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
+  }
+}
