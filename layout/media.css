@@ -592,7 +592,7 @@
 		border-width: 2px;
 	}
 	.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
-		max-height: 440px;
+		max-height: 720px;
 	}
 	.navbar-inverse .navbar-collapse {
 		background-color: #111;
