@@ -425,12 +425,15 @@
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
-    
+
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
-
+    .navbar .navbar-collapse.collapse.in .navbar-nav, 
+    .navbar .navbar-collapse.collapsing .navbar-nav {
+        margin-top: 15%;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -665,7 +668,7 @@
 		margin-bottom: 50px;
 	}
 
-	/* Partners & Foter */
+	/* Partners & Footer */
 	#partners-section, footer {
 		text-align: center;
 	}

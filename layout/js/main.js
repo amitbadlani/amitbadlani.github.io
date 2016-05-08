@@ -177,6 +177,7 @@ var XeniaTheme = {
         $('.navbar .navbar-toggle').click(function(e) {
             e.preventDefault();
             dropdownHide();
+            $('.navbar-toggle').toggleClass('open');
        	});
 
         //Create floating navigation bar

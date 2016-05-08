@@ -550,10 +550,10 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .navbar .navbar-collapse.collapsing {
 	background:#000;
     opacity: 0.9;
-	margin-top: -36px;
+	margin-top: -37px;
 	position:absolute;
 	width:100%;
-    height: 100vh;
+    height: 720px;
 	z-index:100;
 }
 
@@ -568,12 +568,12 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .navbar .navbar-collapse.collapsing .navbar-nav > li {
     margin: 0 auto;
     width: 50%;
-    text-align: center;
+    text-align: center; 
 }
 
 .navbar .navbar-collapse.collapse.in .navbar-nav, 
 .navbar .navbar-collapse.collapsing .navbar-nav{
-    margin-top: 40%;
+    margin-top: 50%;
 }
 
 .navbar .navbar-toggle {
@@ -592,6 +592,26 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 	   -moz-transition:all 0.1s ease-in;
 		 -o-transition:all 0.1s ease-in;
 			transition:all 0.1s ease-in;
+}
+
+
+.navbar-toggle.open span:nth-child(1) {
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.navbar-toggle.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.navbar-toggle.open span:nth-child(3) {
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
 }
 
 .navbar .navbar-nav > li > .dropdown-menu {
@@ -617,72 +637,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .navbar.floating .navbar-nav > li > .dropdown-menu {
 	border-radius:0 0 3px 3px;
 	top:45px;
-}
-
-.navbar.three .navbar-nav > li > a:after, 
-.navbar.four .navbar-nav > li > a:after, 
-.navbar.six .navbar-nav > li > a:after {
-	position:absolute;
-	top:100%;
-	left:0;
-	right:0;
-	margin:0 auto;
-	width:80%;
-	height:1px;
-	content:"";
-	opacity:0;
-	-webkit-transition:height .3s ease 0s, opacity .3s ease 0s, transform .3s ease 0s;
-	   -moz-transition:height .3s ease 0s, opacity .3s ease 0s, transform .3s ease 0s;
-		 -o-transition:height .3s ease 0s, opacity .3s ease 0s, transform .3s ease 0s;
-			transition:height .3s ease 0s, opacity .3s ease 0s, transform .3s ease 0s;
-	-webkit-transform:translateY(0px);
-	   -moz-transform:translateY(0px);
-		 -o-transform:translateY(0px);
-		-ms-transform:translateY(0px);
-			transform:translateY(0px);
-}
-
-.navbar.three .navbar-nav > li > a:hover:after, 
-.navbar.four .navbar-nav > li > a:hover:after, 
-.navbar.six .navbar-nav > li > a:hover:after, 
-.navbar.three .navbar-nav > li > a:focus:after, 
-.navbar.four .navbar-nav > li > a:focus:after, 
-.navbar.six .navbar-nav > li > a:focus:after, 
-.navbar.three .navbar-nav > li.dropdown.open > a:after, 
-.navbar.four .navbar-nav > li.dropdown.open > a:after, 
-.navbar.six .navbar-nav > li.dropdown.open > a:after {
-	height:2px;
-	opacity:1;
-	-webkit-transform:translateY(8px);
-	   -moz-transform:translateY(8px);
-		 -o-transform:translateY(8px);
-		-ms-transform:translateY(8px);
-			transform:translateY(8px);
-}
-
-.navbar.seven .navbar-nav > li.active > a:after, 
-.navbar.eight .navbar-nav > li.active > a:after, 
-.navbar.nine .navbar-nav > li.active > a:after {
-	position:absolute;
-	top:100%;
-	left:0;
-	right:0;
-	margin:23px auto 0;
-	width:80%;
-	height:2px;
-	content:"";
-}
-
-.navbar.seven:not(.floating) .navbar-nav > li.active > a:after, 
-.navbar.eight:not(.floating) .navbar-nav > li.active > a:after, 
-.navbar.nine:not(.floating) .navbar-nav > li.active > a:after {
-	margin-top:15px;
-}
-
-.navbar.two .social, 
-.navbar.four .social, 
-.navbar.nine .social {
-	display:block;
 }
 
 @media (min-width:768px) {
@@ -744,8 +698,23 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 	background-color:#282828;
 }
 
-.navbar.floating .social i {
-	color:#282828;
+.navbar.floating .navbar-toggle.open span:nth-child(1) {
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.navbar.floating .navbar-toggle.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.navbar.floating .navbar-toggle.open span:nth-child(3) {
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
 }
 
 /*****************
