@@ -595,19 +595,19 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 
 
-.navbar-toggle.open span:nth-child(1) {
+.navbar .navbar-toggle.open span:nth-child(1) {
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
   -o-transform: rotate(135deg);
   transform: rotate(135deg);
 }
 
-.navbar-toggle.open span:nth-child(2) {
+.navbar .navbar-toggle.open span:nth-child(2) {
   opacity: 0;
   left: -60px;
 }
 
-.navbar-toggle.open span:nth-child(3) {
+.navbar .navbar-toggle.open span:nth-child(3) {
   -webkit-transform: rotate(-135deg);
   -moz-transform: rotate(-135deg);
   -o-transform: rotate(-135deg);
@@ -696,25 +696,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .navbar.floating .navbar-toggle .icon-bar {
 	background-color:#282828;
-}
-
-.navbar.floating .navbar-toggle.open span:nth-child(1) {
-  -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
-  transform: rotate(135deg);
-}
-
-.navbar.floating .navbar-toggle.open span:nth-child(2) {
-  opacity: 0;
-  left: -60px;
-}
-
-.navbar.floating .navbar-toggle.open span:nth-child(3) {
-  -webkit-transform: rotate(-135deg);
-  -moz-transform: rotate(-135deg);
-  -o-transform: rotate(-135deg);
-  transform: rotate(-135deg);
 }
 
 /*****************
@@ -1383,135 +1364,6 @@ iframe {
 .circular-bars h5, .circular-bars .h5, 
 .circular-bars h6, .circular-bars .h6 {
 	margin-top:15px;
-}
-
-/*************************
-    - Twitter widget -
-*************************/
-.twitter .twitter-feed ul {
-	list-style:none;
-	padding:0;
-}
-
-.twitter .twitter-feed ul .tweet_time, 
-.twitter .twitter-feed ul .tweet_join, 
-.twitter .twitter-feed ul .tweet_text {
-	font-family:"Roboto", sans-serif;
-	font-size:16px;
-	line-height:2;
-	font-weight:500;
-}
-
-.twitter .twitter-author {
-	opacity:.6;
-	color:#ffffff !important;
-}
-
-/***************************************
-    - Contact information and form -
-***************************************/
-.large-info {
-	font-family:"Roboto", sans-serif;
-	font-size:50px;
-	line-height:1;
-	padding:24px 30px;
-	background-color:rgba(255, 255, 255, 0.1);
-	border-radius:3px;
-	display:inline-block;
-	color:#ffffff !important;
-	font-weight:500;
-}
-
-.large-info i {
-	padding-right:10px;
-}
-
-.contact-icon {
-	margin-top:10px;
-	font-size:20px;
-	line-height:1;
-}
-
-.contact-info {
-	opacity:.6;
-	color:#ffffff !important;
-}
-
-.contact-info a {
-	color:#ffffff !important;
-}
-
-.contact-form .field {
-	width:98.24561403508772%;
-	margin-bottom:30px;
-	position:relative;
-}
-
-.contact-form .field:last-child {
-	margin-bottom:40px;
-}
-
-.contact-form .field input, .contact-form .field textarea {
-	width:100%;
-}
-
-.contact-form .field textarea {
-	height:210px;
-}
-
-.contact-form .field .error {
-	display:none;
-	position:absolute;
-	top:17px;
-	right:15px;
-	line-height:1;
-	cursor:default;
-}
-
-.contact-form .field .error i.fa {
-	font-size:14px;
-	cursor:inherit;
-	color:#a6a6a6;
-}
-
-.contact-form-result {
-	display:none;
-}
-
-/**********************
-    - Google maps -
-**********************/
-.map {
-	position:relative;
-	overflow:hidden;
-}
-
-.map > i {
-	position:absolute;
-	display:block;
-	left:0;
-	right:0;
-	-webkit-box-shadow:0 0 4px rgba(0, 0, 0, 0.15);
-	   -moz-box-shadow:0 0 4px rgba(0, 0, 0, 0.15);
-			box-shadow:0 0 4px rgba(0, 0, 0, 0.15);
-}
-
-.map > i.shadow-top {
-	top:-5px;
-	height:5px;
-}
-
-.map > i.shadow-bottom {
-	bottom:-5px;
-	height:5px;
-}
-
-.map #google-map {
-	height:500px;
-}
-
-.map #map-info {
-	display:none;
 }
 
 /*****************
