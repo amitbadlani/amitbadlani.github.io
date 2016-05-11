@@ -833,8 +833,9 @@
   width: 100%;
 }
 .mbr-navbar__menu-box {
-  display: table;
+  display: block;
   width: 100%;
+  height: 100%;
 }
 .mbr-navbar__menu-box--inline-left,
 .mbr-navbar__menu-box--inline-center,
