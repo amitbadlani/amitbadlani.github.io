@@ -2,15 +2,15 @@
 
 /* Default Variables */
 var XeniaOptions = {
-    parallax:true,
-    loader:true,
-    animations:true,
-    scrollSpeed:700,
-    navigation:'sticky',
-    intro:{
-        animate:true,
-        animateDelayFirst:500,
-        animateDelay:300
+    parallax: true,
+    loader: true,
+    animations: true,
+    scrollSpeed: 700,
+    navigation: 'sticky',
+    intro: {
+        animate: true,
+        animateDelayFirst: 500,
+        animateDelay: 300
     }
 }
 
