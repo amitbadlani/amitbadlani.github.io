@@ -833,9 +833,8 @@
   width: 100%;
 }
 .mbr-navbar__menu-box {
-  display: block;
+  display: table;
   width: 100%;
-  height: 100%;
 }
 .mbr-navbar__menu-box--inline-left,
 .mbr-navbar__menu-box--inline-center,
@@ -968,7 +967,7 @@
 .mbr-navbar--relative .mbr-navbar__section {
   background: #2c2c2c;
 }
-@media (max-width: 991px) {
+@media (max-device-width: 991px) {
   .mbr-navbar--auto-collapse .mbr-navbar__container {
     position: relative;
   }
@@ -982,7 +981,7 @@
   .mbr-navbar--auto-collapse .mbr-navbar__menu {
     background: rgba(0, 0, 0, 0.9);
     display: none;
-    height: 100%;
+    height: 100vh;
     left: 0;
     position: fixed;
     top: 0;
