@@ -595,23 +595,25 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 
 
-.navbar .navbar-toggle.open span:nth-child(1) {
-  -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
-  transform: rotate(135deg);
+.navbar .navbar-toggle.close span:nth-child(1) {
+   margin-top: 10px; 
+   -webkit-transform: rotate(135deg);
+      -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+           transform: rotate(135deg);
 }
 
-.navbar .navbar-toggle.open span:nth-child(2) {
+.navbar .navbar-toggle.close span:nth-child(2) {
   opacity: 0;
   left: -60px;
 }
 
-.navbar .navbar-toggle.open span:nth-child(3) {
+.navbar .navbar-toggle.close span:nth-child(3) {
+  margin-top: -10px; 
   -webkit-transform: rotate(-135deg);
-  -moz-transform: rotate(-135deg);
-  -o-transform: rotate(-135deg);
-  transform: rotate(-135deg);
+     -moz-transform: rotate(-135deg);
+       -o-transform: rotate(-135deg);
+          transform: rotate(-135deg);
 }
 
 .navbar .navbar-nav > li > .dropdown-menu {
@@ -619,9 +621,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 	border-radius:3px;
 	border:none;
 	background-color:#ffffff;
-	-webkit-box-shadow:none;
-	   -moz-box-shadow:none;
-			box-shadow:none;
 }
 
 .navbar .navbar-nav > li > .dropdown-menu > li a {
@@ -661,9 +660,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 		 -o-transform:translateY(-90px);
 		-ms-transform:translateY(-90px);
 			transform:translateY(-90px);
-	-webkit-box-shadow:0px 0px 3px 0px rgba(0, 0, 0, 0.1);
-	   -moz-box-shadow:0px 0px 3px 0px rgba(0, 0, 0, 0.1);
-			box-shadow:0px 0px 3px 0px rgba(0, 0, 0, 0.1);
 }
 
 .navbar.floating.positive {

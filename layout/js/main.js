@@ -145,7 +145,7 @@ var XeniaTheme = {
             if ($('.navbar .dropdown.open').length==0) return;
             
 			$('.navbar .dropdown.open').each(function() {
-                $(this).find('.dropdown-menu').animate({opacity:0}, {duration:150, queue:false, complete:function() {
+                $(this).find('.dropdown-menu').animate({opacity:0}, {duration:100, queue:false, complete:function() {
                     $(this).parent().removeClass('open');
                 }});
            });
@@ -153,7 +153,7 @@ var XeniaTheme = {
 		
         var dropdownShow = function($that) {
             $that.find('.dropdown-menu').css({opacity:0});
-            $that.addClass('open').find('.dropdown-menu').animate({opacity:1}, {duration:150, queue:false});
+            $that.addClass('open').find('.dropdown-menu').animate({opacity:1}, {duration:100, queue:true});
         };
 
         //Collapse menu
@@ -177,7 +177,7 @@ var XeniaTheme = {
         $('.navbar .navbar-toggle').click(function(e) {
             e.preventDefault();
             dropdownHide();
-            $('.navbar-toggle').toggleClass('open');
+            $('.navbar-toggle').toggleClass('close');
        	});
 
         //Create floating navigation bar
