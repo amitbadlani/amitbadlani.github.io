@@ -1,7 +1,7 @@
 /************************
     - Media queries -
 ************************/
-@media (min-width:767px) {
+@media (max-width:767px) {
 	/* General and typography */
 	h1,  .h1 {
 		font-size:28px;
@@ -201,24 +201,6 @@
 		font-size:18px;
 	}
 
-	/* Contact information and form */
-	.large-info {
-		font-size:28px;
-		padding:20px;
-		margin-bottom:10px;
-	}
-    
-    .contact-info {
-		font-size:18px;
-		padding:20px;
-		margin-bottom:10px;
-	}
-    
-    .contact-icon {
-		width: 28px; 
-        height: 28px; 
-	}
-	
 	.contact-form .field {
 		width:100%;
 		margin-bottom:15px !important;
@@ -318,31 +300,6 @@
 		font-size:80px;
 	}
 	
-	/* Navigation */
-	.navbar {
-		padding-top:40px;
-	}
-	
-	.navbar .social {
-		display:none !important;
-	}
-	
-	.navbar.floating {
-		padding-top:25px;
-		padding-bottom:20px;
-	}
-	
-	.navbar.seven .navbar-nav > li.active > a:after,  
-	.navbar.eight .navbar-nav > li.active > a:after,  
-	.navbar.nine .navbar-nav > li.active > a:after {
-		margin-top:18px;
-	}
-	
-	.navbar.seven:not(.floating) .navbar-nav > li.active > a:after,  
-	.navbar.eight:not(.floating) .navbar-nav > li.active > a:after,  
-	.navbar.nine:not(.floating) .navbar-nav > li.active > a:after {
-		margin-top:12px;
-	}
 
 	/* Services */
 	.services [class*=col] i.fa {
@@ -398,6 +355,23 @@
 		right:30px;
 		width:300px;
 	}
+    
+    /* Contact information and form */
+	.large-info {
+		font-size:28px;
+		padding:20px;
+		margin-bottom:10px;
+	}
+    
+    .contact-info {
+		font-size:14px;
+		padding:20px;
+		margin-bottom:10px;
+	}
+	
+    .contact-icon {
+        font-size: 20px; 
+    }
 }
 
 @media (min-width:992px) and (max-width:1199px) {
@@ -426,6 +400,24 @@
 		top:-25px;
 		right:30px;
 	}
+    
+    /* Contact information and form */
+	.large-info {
+		font-size:28px;
+		padding:20px;
+		margin-bottom:10px;
+	}
+    
+    .contact-info {
+		font-size:14px;
+		padding:20px;
+		margin-bottom:10px;
+	}
+    
+    .contact-icon:before {
+        font-size: 20px; 
+    }
+	
 }
 
 /*==================================================
