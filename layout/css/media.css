@@ -1,7 +1,7 @@
 /************************
     - Media queries -
 ************************/
-@media (max-width:767px) {
+@media (min-width:767px) {
 	/* General and typography */
 	h1,  .h1 {
 		font-size:28px;
