@@ -449,12 +449,42 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+    /* Contact information and form */
+	.large-info {
+		font-size:28px;
+		padding:20px;
+		margin-bottom:10px;
+	}
+    
+    .contact-info {
+		font-size:14px;
+		padding:20px;
+		margin-bottom:10px;
+	}
+    
+    .contact-icon:before {
+        font-size: 20px; 
+    }
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
+	/* Contact information and form */
+	.large-info {
+		font-size:28px;
+		padding:20px;
+		margin-bottom:10px;
+	}
+    
+    .contact-info {
+		font-size:14px;
+		padding:20px;
+		margin-bottom:10px;
+	}
+    
+    .contact-icon:before {
+        font-size: 20px; 
+    }
 }
 
 
