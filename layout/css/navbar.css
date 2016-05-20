@@ -330,12 +330,12 @@
 .mbr-hamburger {
   cursor: pointer;
   height: 15px;
-  width: 21px;
+  width: 19px;
 }
 .mbr-hamburger:focus {
   outline: none;
 }
-.mbr-hamburger__line,
+
 .mbr-hamburger__line:before,
 .mbr-hamburger__line:after {
   content: "";
@@ -344,31 +344,31 @@
   height: 1px;
   cursor: pointer;
 }
-.mbr-hamburger__line,
+
 .mbr-hamburger__line:before,
 .mbr-hamburger__line:after {
-  width: 21px;
-  border-bottom: 3px solid;
-  top: 8px;
+  width: 19px;
+  border-bottom: 1px solid;
+  top: 14px;
 }
 .mbr-hamburger__line:before {
-  top: -8px;
+  top: 6px;
 }
 .mbr-hamburger__line:after {
-  top: 8px;
+  top: 14px;
 }
-.mbr-hamburger__line,
+
 .mbr-hamburger__line:before,
 .mbr-hamburger__line:after {
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
 }
 .mbr-hamburger--open .mbr-hamburger__line {
   border-color: transparent;
 }
 .mbr-hamburger--open .mbr-hamburger__line:before,
 .mbr-hamburger--open .mbr-hamburger__line:after {
-  top: 0;
+  top: 10px;
 }
 .mbr-hamburger--open .mbr-hamburger__line:before {
   -webkit-transform: rotate(135deg);
@@ -378,31 +378,31 @@
           transform: rotate(135deg);
 }
 .mbr-hamburger--open .mbr-hamburger__line:after {
-  top: 10px;
-    -webkit-transform: translateY(-10px) rotate(45deg);
-       -moz-transform: translateY(-10px) rotate(45deg);
-        -ms-transform: translateY(-10px) rotate(45deg);
-         -o-transform: translateY(-10px) rotate(45deg);
-            transform: translateY(-10px) rotate(45deg);
+  top: 20px;
+    -webkit-transform: translateY(-10px) rotate(-135deg);
+       -moz-transform: translateY(-10px) rotate(-135deg);
+        -ms-transform: translateY(-10px) rotate(-135deg);
+         -o-transform: translateY(-10px) rotate(-135deg);
+            transform: translateY(-10px) rotate(-135deg);
 }
 
 @media (max-width: 790px) {
   .mbr-hamburger {
     height: 15px;
-    width: 21px;
+    width: 19px;
   }
-  .mbr-hamburger__line,
+
   .mbr-hamburger__line:before,
   .mbr-hamburger__line:after {
-    width: 21px;
-    border-bottom: 3px solid;
-    top: 8px;
+    width: 19px;
+    border-bottom: 1px solid;
+    top: 14px;
   }
   .mbr-hamburger__line:before {
-    top: -8px;
+    top: 6px;
   }
   .mbr-hamburger__line:after {
-    top: 8px;
+    top: 14px;
   }
 }
 
