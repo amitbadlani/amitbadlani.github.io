@@ -379,11 +379,11 @@
 }
 .mbr-hamburger--open .mbr-hamburger__line:after {
   top: 20px;
-    -webkit-transform: translateY(-10px) rotate(-135deg);
-       -moz-transform: translateY(-10px) rotate(-135deg);
-        -ms-transform: translateY(-10px) rotate(-135deg);
-         -o-transform: translateY(-10px) rotate(-135deg);
-            transform: translateY(-10px) rotate(-135deg);
+    -webkit-transform: translateY(-10px) rotate(45deg);
+       -moz-transform: translateY(-10px) rotate(45deg);
+        -ms-transform: translateY(-10px) rotate(45deg);
+         -o-transform: translateY(-10px) rotate(45deg);
+            transform: translateY(-10px) rotate(45deg);
 }
 
 @media (max-width: 790px) {
