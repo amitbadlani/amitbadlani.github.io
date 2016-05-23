@@ -435,6 +435,16 @@
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
+    
+    .contact-info {
+		font-size:10px;
+		padding:10px;
+		margin-bottom:10px;
+	}
+    
+    .contact-icon:before {
+        font-size: 12px; 
+    }
 
 }
 
@@ -444,6 +454,16 @@
     .navbar .navbar-collapse.collapsing .navbar-nav {
         margin-top: 15%;
     }
+    
+    .contact-info {
+		font-size:10px;
+		padding:10px;
+		margin-bottom:10px;
+	}
+    
+    .contact-icon:before {
+        font-size: 12px; 
+    }
 }
 
 /* Small Devices, Tablets */
@@ -451,6 +471,16 @@
 	/* Make Navigation Toggle on Desktop Hover (use class: dropdown-hover) */
     .dropdown-hover:hover > .dropdown-menu {
         display: block;
+    }
+    
+    .contact-info {
+		font-size:10px;
+		padding:10px;
+		margin-bottom:10px;
+	}
+    
+    .contact-icon:before {
+        font-size: 12px; 
     }
 }
 
