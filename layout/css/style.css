@@ -2509,7 +2509,23 @@ Timeline Style
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
     }
-}	
+}
+
+/* ==========================================================================
+Contact Info
+========================================================================== */
+
+.large-info {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    line-height: 1;
+    padding: 24px 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    display: inline-block;
+    color: #ffffff !important;
+    font-weight: 500;
+}
 
 
 /* ==========================================================================

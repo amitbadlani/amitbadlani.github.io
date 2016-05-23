@@ -259,6 +259,13 @@
 	.map #google-map {
 		height:300px;
 	}
+    
+    .large-info {
+		font-size:18px;
+		padding:10px;
+		margin-bottom:10px;
+	}
+    
 }
 
 @media (min-width:768px) and (max-width:991px) {
@@ -358,7 +365,7 @@
     
     /* Contact information and form */
 	.large-info {
-		font-size:28px;
+		font-size:30px;
 		padding:20px;
 		margin-bottom:10px;
 	}
@@ -403,7 +410,7 @@
     
     /* Contact information and form */
 	.large-info {
-		font-size:28px;
+        font-size:40px;
 		padding:20px;
 		margin-bottom:10px;
 	}

@@ -9,7 +9,7 @@ vid.addEventListener('ended', function()
 {
 // only functional if "loop" is removed 
 vid.pause();
-// to capture IE10
+// to capture Video on IE10 and supported browsers. 
 vidFade();
 }); 
 
