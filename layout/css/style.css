@@ -2527,12 +2527,9 @@ Contact Info
     font-weight: 500;
 }
 
-.contact-info {
+.contact-info > a {
     color: white;
-    opacity: 0.6; 
-    font-size:16px;
-    padding:20px;
-    margin-bottom:20px;
+    opacity: 0.6;
 }
 
 
