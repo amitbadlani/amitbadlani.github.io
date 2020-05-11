@@ -87,49 +87,49 @@ p {
 }
 
 /* PHOTOS */
-.photo-bg.photo-bg-freight-train{
-  background-image: url("../../../images/projects/Photoloquy/ab-photography-1.jpg");
+.photo-bg.photo-bg-ggfog{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-ggfog.jpg");
 }
 .photo-bg.photo-bg-fix-you{
-  background-image: url("../../../images/projects/Photoloquy/ab-photography-2.jpg");
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-lights.jpg");
 }
-.photo-bg.photo-bg-ek-baat{
-  background-image: url("../../../images/projects/Photoloquy/ab-photography-3.jpg");
+.photo-bg.photo-bg-highland{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-highlandbull.jpg");
 }
-.photo-bg.photo-bg-school-allusion{
-  background-image: url("../../../images/projects/Photoloquy/ab-photography-4.jpg");
+.photo-bg.photo-bg-iceland{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-icelandichorse.jpg");
 }
-.photo-bg.photo-bg-set-fire-to-the-rain{
-  background-image: url("../../../images/projects/Photoloquy/ab-photography-5.jpg");
+.photo-bg.photo-bg-longexpo{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-longexpo.jpg");
 }
-.photo-bg.photo-bg-iris{
-  background-image: url("../../../images/projects/Photoloquy/ab-photography-6.jpg");
+.photo-bg.photo-bg-limitless{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-limitless.jpg");
 }
 .photo-bg.photo-bg-daylight{
-  background-image: url("../../../images/projects/Photoloquy/ab-photography-7.jpg");
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-bigsur.jpg");
 }
-.photo-bg.photo-bg-water-mind{
-  background-image: url("../../../images/projects/Photoloquy/ab-photography-8.jpg");
-}
-.photo-bg.photo-bg-into-the-blue{
-  background-image: url("../../../images/projects/Photoloquy/ab-photography-9.jpg");
+.photo-bg.photo-bg-pastel-sunsets{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-pastelsunsets.jpg");
 }
 .photo-bg.photo-bg-counting-stars{
-  background-image: url("../../../images/projects/Photoloquy/ab-photography-10.jpg");
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-meteora.jpg");
 }
 .photo-bg.photo-bg-yellow{
-  background-image: url("../../../images/projects/Photoloquy/ab-photography-11.jpg");
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-californiagold.jpg");
 }
 .photo-bg.photo-bg-each-other{
-  background-image: url("../../../images/projects/Photoloquy/ab-photography-1.jpg");
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-burninglove.jpg");
+}
+.photo-bg.photo-bg-snowsemite{
+  background-image: url("../../../images/projects/Photoloquy/ab-photography-snowsemite.jpg");
 }
 
 /* TEXT ON PHOTOS
 Needs to be customized, depending on the photo.
 To generalize, apply to .photo-bg instead of .photo-bg-song-title
+*/
 
-photoloquy_version1: only mishku pic has text, hence .photo-bg-freight-train */
-.photo-bg-freight-train h1, .photo-bg-freight-train p{
+.photo-bg-ggfog h1, .photo-bg-ggfog p{
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -144,12 +144,12 @@ photoloquy_version1: only mishku pic has text, hence .photo-bg-freight-train */
   color: white;
 }
 
-.photo-bg-freight-train h1{
-  top: 50%;
+.photo-bg-ggfog h1{
+  top: 80%;
   bottom: auto;
   right: auto;
 }
-.photo-bg-freight-train p{
+.photo-bg-ggfog p{
   top: auto;
   bottom: 10%;
   right: auto;
